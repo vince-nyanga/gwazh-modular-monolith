@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Academic\Gwazh.Modules.Academic.Api\Gwazh.Modules.Academic.Api.csproj" />
+    <ProjectReference Include="..\Modules\Admin\Gwazh.Modules.Admin.Api\Gwazh.Modules.Admin.Api.csproj" />
+    <ProjectReference Include="..\Modules\Admissions\Gwazh.Modules.Admissions.Api\Gwazh.Modules.Admissions.Api.csproj" />
+    <ProjectReference Include="..\Modules\Finance\Gwazh.Modules.Finance.Api\Gwazh.Modules.Finance.Api.csproj" />
+    <ProjectReference Include="..\Modules\Staff\Gwazh.Modules.Staff.Api\Gwazh.Modules.Staff.Api.csproj" />
+  </ItemGroup>
+
+</Project>

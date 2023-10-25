@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8303DC95-CBB8-4601-A65F-82C8FD5B865E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Bootstrapper", "src\Gwazh.Bootstrapper\Gwazh.Bootstrapper.csproj", "{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{7DFD51C0-3E32-47CC-BF24-00522E1E06B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Academic", "Academic", "{403AC912-35C6-45E6-9910-C40CFFF98DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Modules.Academic.Api", "src\Modules\Academic\Gwazh.Modules.Academic.Api\Gwazh.Modules.Academic.Api.csproj", "{BDACA128-A3CB-451D-8BE1-1532D23ACE2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{3030FDE1-C5E6-480C-8DAB-7987E624F6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Modules.Admin.Api", "src\Modules\Admin\Gwazh.Modules.Admin.Api\Gwazh.Modules.Admin.Api.csproj", "{660B117D-06E4-4116-A4F6-9ABE3578D215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admissions", "Admissions", "{CE82592B-7BCD-4FF8-BBD3-132F3476C9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Modules.Admissions.Api", "src\Modules\Admissions\Gwazh.Modules.Admissions.Api\Gwazh.Modules.Admissions.Api.csproj", "{D6789604-B15F-422C-AAF2-3E3BCEDE6D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Finance", "Finance", "{23F25921-50E6-4B65-A432-9D765BA7A576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Modules.Finance.Api", "src\Modules\Finance\Gwazh.Modules.Finance.Api\Gwazh.Modules.Finance.Api.csproj", "{E77AA011-466C-4CDD-ACB3-A9FA47B46B21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Staff", "Staff", "{CB144F83-4370-439C-88EF-2FD8030B9FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwazh.Modules.Staff.Api", "src\Modules\Staff\Gwazh.Modules.Staff.Api\Gwazh.Modules.Staff.Api.csproj", "{DC287029-912A-4ED1-85ED-1C88B6A6FA99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Files", "Solutions Files", "{525F8F45-AC29-4D3D-86A9-DF44DB7F6E99}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDACA128-A3CB-451D-8BE1-1532D23ACE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDACA128-A3CB-451D-8BE1-1532D23ACE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDACA128-A3CB-451D-8BE1-1532D23ACE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDACA128-A3CB-451D-8BE1-1532D23ACE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660B117D-06E4-4116-A4F6-9ABE3578D215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660B117D-06E4-4116-A4F6-9ABE3578D215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660B117D-06E4-4116-A4F6-9ABE3578D215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660B117D-06E4-4116-A4F6-9ABE3578D215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6789604-B15F-422C-AAF2-3E3BCEDE6D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6789604-B15F-422C-AAF2-3E3BCEDE6D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6789604-B15F-422C-AAF2-3E3BCEDE6D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6789604-B15F-422C-AAF2-3E3BCEDE6D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77AA011-466C-4CDD-ACB3-A9FA47B46B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77AA011-466C-4CDD-ACB3-A9FA47B46B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77AA011-466C-4CDD-ACB3-A9FA47B46B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77AA011-466C-4CDD-ACB3-A9FA47B46B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC287029-912A-4ED1-85ED-1C88B6A6FA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC287029-912A-4ED1-85ED-1C88B6A6FA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC287029-912A-4ED1-85ED-1C88B6A6FA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC287029-912A-4ED1-85ED-1C88B6A6FA99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51EBBCFE-5D56-4708-9E71-B0C9E0B50AD4} = {8303DC95-CBB8-4601-A65F-82C8FD5B865E}
+		{7DFD51C0-3E32-47CC-BF24-00522E1E06B1} = {8303DC95-CBB8-4601-A65F-82C8FD5B865E}
+		{403AC912-35C6-45E6-9910-C40CFFF98DD3} = {7DFD51C0-3E32-47CC-BF24-00522E1E06B1}
+		{BDACA128-A3CB-451D-8BE1-1532D23ACE2A} = {403AC912-35C6-45E6-9910-C40CFFF98DD3}
+		{3030FDE1-C5E6-480C-8DAB-7987E624F6C6} = {7DFD51C0-3E32-47CC-BF24-00522E1E06B1}
+		{660B117D-06E4-4116-A4F6-9ABE3578D215} = {3030FDE1-C5E6-480C-8DAB-7987E624F6C6}
+		{CE82592B-7BCD-4FF8-BBD3-132F3476C9DD} = {7DFD51C0-3E32-47CC-BF24-00522E1E06B1}
+		{D6789604-B15F-422C-AAF2-3E3BCEDE6D36} = {CE82592B-7BCD-4FF8-BBD3-132F3476C9DD}
+		{23F25921-50E6-4B65-A432-9D765BA7A576} = {7DFD51C0-3E32-47CC-BF24-00522E1E06B1}
+		{E77AA011-466C-4CDD-ACB3-A9FA47B46B21} = {23F25921-50E6-4B65-A432-9D765BA7A576}
+		{CB144F83-4370-439C-88EF-2FD8030B9FA0} = {7DFD51C0-3E32-47CC-BF24-00522E1E06B1}
+		{DC287029-912A-4ED1-85ED-1C88B6A6FA99} = {CB144F83-4370-439C-88EF-2FD8030B9FA0}
+	EndGlobalSection
+EndGlobal
