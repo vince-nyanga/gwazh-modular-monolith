@@ -1,6 +1,6 @@
 # Gwazh: Modular Monolith
 
-Gwazh is a fictitious school system built as a modular monolith. A modular monolith is a design approach that combines the best of monolithic and microservices architectures. The monolithic application is broken down into loosely-coupled components (modules), which are still deployed as a single unit.
+Gwazh is a fictitious school management system built as a modular monolith. A modular monolith is a design approach that combines the best of monolithic and microservices architectures. The monolithic application is broken down into loosely-coupled components (modules), which are still deployed as a single unit.
 
 > [!NOTE]
 > It is advisable to start off with a modular monolith before going to microservices. This will give you the flexibility to gradually evolve into a microservices architecture once you have observed your system and identified components that could benefit from being extracted into separate services.
